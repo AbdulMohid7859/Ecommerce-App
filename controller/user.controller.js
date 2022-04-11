@@ -8,7 +8,7 @@ const AddUser = (req,res)=>{
     let lastname = req.body.lastname;
     let password = req.body.password;
     let roll = req.body.roll;
-    let updated = req.body.updated;
+    let updated = req.body.updated
 
 let doc = new usermodel({email : email,phonenumber:phonenumber,firstname:firstname,lastname:lastname,password:password,roll:roll,updated:updated },);
 
